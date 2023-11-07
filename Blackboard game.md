@@ -1,15 +1,32 @@
-[FOOTBALL](https://codeforces.com/contest/96/problem/A)
+[BLACKBOARD GAME](https://codeforces.com/gym/104736/problem/B)
 ```c++
 #include <bits/stdc++.h>
 
+#define ll long long
+
 using namespace std;
 
-int main(){
-    string s, zeros = "0000000", ones = "1111111";
-    cin>>s;
+char solve(map<int,int>freq){
+    for(auto &a : freq){
+        if(a.second % 3) return 'Y';
+    }
     
-    if(s.find(zeros) != string::npos  || s.find(ones) != string::npos) cout<<"YES";
-    else cout<<"NO";
+    return 'N';
+}
+
+int main(){
+    int n; 
+    cin>>n;
+    
+    vector<ll>nums(3*n);
+    map<int,int>freq;
+    
+    for(int i = 0; i < 3*n; i++){
+        cin>>nums[i];
+        freq[nums[i]] ++;
+    }
+    
+    cout<<solve(freq);
     
     return 0;
 }
