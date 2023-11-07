@@ -1,4 +1,4 @@
-[Secret Sport]((https://codeforces.com/contest/1894/problem/A))
+[Secret Sport](https://codeforces.com/contest/1894/problem/A)
 ```c++
 #include <bits/stdc++.h>
 
