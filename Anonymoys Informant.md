@@ -1,4 +1,4 @@
-[Anonymoys Informant.md](https://codeforces.com/contest/1894/problem/C)
+[Anonymoys Informant](https://codeforces.com/contest/1894/problem/C)
 ```c++
 #include <bits/stdc++.h>
 
