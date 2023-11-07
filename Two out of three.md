@@ -1,4 +1,4 @@
-[Two out of three](https://codeforces.com/contest/1894/problem/B)
+#[Two out of three](https://codeforces.com/contest/1894/problem/B)
 ```c++
 #include <iostream>
 #include <unordered_map>
